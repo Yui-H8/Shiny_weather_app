@@ -95,7 +95,7 @@ get_weather_forecast_by_cities <- function(city_names) {
 
 # 都市リストを使って天気データフレームを生成
 generate_city_weather_data <- function() {
-  cities_df <- read_csv("updated_cities.csv")  # ← 適切なCSVファイル名にしてください
+  cities_df <- read_csv("updated_cities.csv")  
   weather_df <- get_weather_forecast_by_cities(cities_df$CITY_ASCII)
   
   cities_weather <- cities_df %>%
