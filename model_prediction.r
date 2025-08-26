@@ -4,7 +4,7 @@ require(tidyverse)
 require(httr)
 
 # OpenWeather API key
-api_key <- "a52d7fe339c5cf40af6a567d8fccd250"  # ← 自分のキーを入れてください
+api_key <- "???????????????????????"  # ← 自分のキーを入れてください
 
 # 天気予報を複数都市から取得
 get_weather_forecast_by_cities <- function(city_names) {
